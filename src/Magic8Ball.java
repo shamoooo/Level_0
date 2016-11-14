@@ -33,18 +33,33 @@ else if (r==1) {
 		// -- tell the user "No"
 
 		// 7. If the random number is 2
-if (r==2) {
+else if (r==2) {
 	JOptionPane.showMessageDialog(null, "Maybe you should ask Google?");
 }
 
 		// -- tell the user "Maybe you should ask Google?"
 
 		// 8. If the random number is 3
-if (r==3) {
+else if (r==3) {
 	JOptionPane.showMessageDialog(null, "Maybe you should go eat a caramel cupcake.");
 }
 
 		// -- write your own answer
 
+else if (r==4) {
+	JOptionPane.showMessageDialog(null, "Sorry, this is not a valid answer.");
+}
+
+else if (r==5) {
+	JOptionPane.showMessageDialog(null, "Maybe you should go eat a cream-filled donut.");
+}
+
+else if (r==6) {
+	JOptionPane.showMessageDialog(null, "Maybe you should go eat an egg burrito.");
+}
+
+else if (r==7) {
+	JOptionPane.showMessageDialog(null, "Maybe you should go eat a cinnamon, pumpkin cupcake");
+}
 	}
 }
